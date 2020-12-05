@@ -16,8 +16,12 @@ _global_script_class_icons={
 [application]
 
 config/name="godot-platformer"
-run/main_scene="res://world.tscn"
+run/main_scene="res://ui/StartMenu.tscn"
 config/icon="res://icon.png"
+
+[debug]
+
+gdscript/warnings/return_value_discarded=false
 
 [display]
 
@@ -28,4 +32,5 @@ window/stretch/aspect="expand"
 
 [rendering]
 
+quality/2d/use_pixel_snap=true
 environment/default_environment="res://default_env.tres"

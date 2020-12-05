@@ -3,12 +3,12 @@ extends KinematicBody2D
 var motion = Vector2()
 const UP = Vector2(0,-1)
 export var max_speed = 200
-export var gravity = 10
+export var gravity = 20
 export var acceleration = 50
 export var friction = 0.2
-export var jump_force = 400
+export var jump_force = 550
 
-func _physics_process(delta):
+func _physics_process(_delta):
 	var has_friction = false
 	motion.y += gravity
 	
